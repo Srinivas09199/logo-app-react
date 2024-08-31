@@ -1,0 +1,66 @@
+/* src/components/Logo.css */
+
+.logo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 20px;
+    background-color: #3c3636;
+  }
+  
+  .diamond {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    transform: rotate(45deg);
+  }
+  
+  .segment {
+    position: absolute;
+    width: 100px;
+    height: 20px;
+    background-color: #fff;
+  }
+  
+  .segment-1 {
+    background-color: #29a89d;
+    top: 0;
+    left: 0;
+  }
+  
+  .segment-2 {
+    background-color: #f89b51;
+    top: 0;
+    right: 0;
+  }
+  
+  .segment-3 {
+    background-color: #bec3be;
+    bottom: 0;
+    right: 0;
+  }
+  
+  .segment-4 {
+    background-color: #55a7f6;
+    bottom: 0;
+    left: 0;
+  }
+  
+  .text {
+    position: absolute;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .text h1 {
+    font-family: 'Arial', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .text p {
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+  }
